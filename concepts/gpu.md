@@ -20,7 +20,7 @@ Now I should try to make this run when I boot my pc, so I know now I need to add
 
 ```nix
 systemd.services.gpu-0f = {
-  description = "Set the GY 730 to power state 0f";
+  description = "Set the GT 730 to power state 0f";
   wantedBy = [ "multi-user.target" ];
   serviceConfig.Type = "oneshot";
   script = ''
